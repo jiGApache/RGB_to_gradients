@@ -2,7 +2,7 @@
 Calculating the brightness gradient of an image along the horizontal and vertical axes
 
 The entire model consists of 2 convulutional layers:
-1. Performs converting RGB image to grayscale image according to [formula of relative luminance](https://en.wikipedia.org/wiki/Relative_luminance)
+1. Performs converting RGB image to grayscale image according to [formula of relative luminance](https://en.wikipedia.org/wiki/Relative_luminance) using 1x1 kernel.
 2. Performs gradient calculation using 3x3 [Sobel operators](https://en.wikipedia.org/wiki/Sobel_operator).
 
 ### Usage examples
